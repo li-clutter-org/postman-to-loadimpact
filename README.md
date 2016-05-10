@@ -1,10 +1,10 @@
 #postman-to-loadimpact
 
-Converts Postman collections to Load Impact user scenarios. Given a Postman collection, the transformer will auto-generate a [LUA script](http://support.loadimpact.com/knowledgebase/topics/117699-user-scenario-scripting) to be imported as user scenario for your load tests.
+Converts Postman collections to Load Impact user scenarios. Given a Postman collection, the transformer will auto-generate a [Lua script](http://support.loadimpact.com/knowledgebase/topics/117699-user-scenario-scripting) to be imported as user scenario for your load tests.
 
-The transformer converts Postman requests and [variables](http://blog.getpostman.com/2014/02/20/using-variables-inside-postman-and-collection-runner/)  into LUA requests and variables respectively.
+The transformer converts Postman requests and [variables](http://blog.getpostman.com/2014/02/20/using-variables-inside-postman-and-collection-runner/)  into Lua requests and variables respectively.
 
-Postman [pre-requests](https://www.getpostman.com/docs/pre_request_scripts) and [tests](https://www.getpostman.com/docs/writing_tests) are appended as comments before and after its respective LUA request. The pre-request and test behaviour could easily be replicated with the [Load Impact scripting API](https://loadimpact.com/load-script-api).
+Postman [pre-requests](https://www.getpostman.com/docs/pre_request_scripts) and [tests](https://www.getpostman.com/docs/writing_tests) are appended as comments before and after its respective Lua request. The pre-request and test behaviour could easily be replicated with the [Load Impact scripting API](https://loadimpact.com/load-script-api).
 
 The Postman Collection Format v1 and v2 are supported.
 
@@ -24,7 +24,7 @@ All the options:
 
       Usage: postman-to-loadimpact <filePath> [options]
     
-      Convert a Postman collection to Load Impact LUA user scenario
+      Convert a Postman collection to Load Impact Lua user scenario
     
       Options:
     
