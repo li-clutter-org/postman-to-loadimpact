@@ -1,0 +1,26 @@
+{
+  "name": "postman-to-loadimpact",
+  "description": "Convert a Postman collection to Load Impact LUA user scenario",
+  "version": "0.0.1",
+  "private": true,
+  "author": "",
+  "license": "MIT",
+  "repository": "",
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "directories": {
+    "bin": "bin",
+    "lib": "lib"
+  },
+  "devDependencies": {
+    "jscs": "1.13.1",
+    "jshint": "2.8.0"
+  },
+  "dependencies": {
+    "commander": "2.9.0",
+    "strip-json-comments": "1.0.2",
+    "postman-collection": "0.0.13",
+    "postman-collection-transformer": "^1.5.6"
+  }
+}
