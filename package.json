@@ -2,12 +2,20 @@
   "name": "postman-to-loadimpact",
   "description": "Convert a Postman collection to Load Impact Lua user scenario",
   "version": "0.0.1",
-  "private": true,
-  "author": "",
+  "author": {
+    "email": "support@loadimpact.com",
+    "name": "Load Impact"
+  },
   "license": "MIT",
-  "repository": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/loadimpact/postman-to-loadimpact.git"
+  },
   "engines": {
     "node": ">= 0.10.0"
+  },
+  "bin": {
+    "postman-to-loadimpact": "bin/postman-to-loadimpact.js"
   },
   "directories": {
     "bin": "bin",
