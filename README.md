@@ -33,6 +33,16 @@ All the options:
         -j --input-version <version>  Input version. Options `1.0.0` or `2.0.0`. Default `1.0.0`.
         -o --output <path>            Target file path where the converted collection will be written. Default `console`
 
+## Examples
+
+A collection of Postman examples are located under `./examples/postman`.
+
+The user scenario will be auto-generated when running:
+
+    $ bin/postman-to-loadimpact examples/v1/postman/echo.json
+
+    $ bin/postman-to-loadimpact examples/v2/postman/echo.json -j 2.0.0
+
 ## TODOs
 
  - Auto variable definition. The scenario validation will fail until the variable is created.
