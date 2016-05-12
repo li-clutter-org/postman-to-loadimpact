@@ -8,19 +8,21 @@ Postman [pre-requests](https://www.getpostman.com/docs/pre_request_scripts) and 
 
 The Postman Collection Format v1 and v2 are supported.
 
-## Installation
+## Installation and usage
 
+As npm global package:
+ - npm install -g postman-to-loadimpact
+ - postman-to-loadimpact <filePath>
+
+As local repository:
  - git clone git@github.com:loadimpact/postman-to-loadimpact.git
  - cd postman-to-loadimpact
  - npm install
+ - bin/postman-to-loadimpact.js examples/postman/v1/echo.json
 
-## Usage
+## Options
 
-The transformer provides a Command line interface with different options.
-
-    $ bin/postman-to-loadimpact.js examples/postman/v1/echo.json
-
-All the options:
+The transformer provides a command line interface with different options.
 
       Usage: postman-to-loadimpact <filePath> [options]
     
@@ -39,16 +41,9 @@ A collection of Postman examples are located under `./examples/postman`.
 
 The user scenario will be auto-generated when running:
 
-    $ bin/postman-to-loadimpact.js examples/postman/v1/echo.json
+    $ postman-to-loadimpact examples/postman/v1/echo.json
 
-    $ bin/postman-to-loadimpact.js examples/postman/v2/echo.json -j 2.0.0
-
-## TODOs
-
- - Auto variable definition. The scenario validation will fail until the variable is created.
- - npm package.
-
-
+    $ postman-to-loadimpact examples/postman/v2/echo.json -j 2.0.0
 
 
 Please, use the [issue tracker](https://github.com/loadimpact/postman-to-loadimpact/issues) to open a discussion or bug report.
