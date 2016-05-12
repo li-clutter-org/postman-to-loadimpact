@@ -1,6 +1,6 @@
 {
   "name": "postman-to-loadimpact",
-  "description": "Convert a Postman collection to Load Impact LUA user scenario",
+  "description": "Convert a Postman collection to Load Impact Lua user scenario",
   "version": "0.0.1",
   "private": true,
   "author": "",

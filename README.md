@@ -18,7 +18,7 @@ The Postman Collection Format v1 and v2 are supported.
 
 The transformer provides a Command line interface with different options.
 
-    $ bin/postman-to-loadimpact examples/v1/postman/echo.json
+    $ bin/postman-to-loadimpact.js examples/postman/v1/echo.json
 
 All the options:
 
@@ -39,9 +39,9 @@ A collection of Postman examples are located under `./examples/postman`.
 
 The user scenario will be auto-generated when running:
 
-    $ bin/postman-to-loadimpact examples/v1/postman/echo.json
+    $ bin/postman-to-loadimpact.js examples/postman/v1/echo.json
 
-    $ bin/postman-to-loadimpact examples/v2/postman/echo.json -j 2.0.0
+    $ bin/postman-to-loadimpact.js examples/postman/v2/echo.json -j 2.0.0
 
 ## TODOs
 

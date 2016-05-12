@@ -7,7 +7,7 @@ var program = require('commander'),
 program
     .version(require('../package.json').version)
     .usage('<filePath> [options]')
-    .description('Convert a Postman collection to Load Impact LUA user scenario')
+    .description('Convert a Postman collection to Load Impact Lua user scenario')
     .option('-j --input-version <version>', 'Input version. Options `1.0.0` or `2.0.0`. Defaut `1.0.0`.', /^(1.0.0|2.0.0)$/i, '1.0.0')
     .option('-o --output <path>', 'Target file path where the converted collection will be written. Default `console`')
     .action(function (fileName, options) {
