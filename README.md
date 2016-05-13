@@ -12,7 +12,7 @@ The Postman Collection Format v1 and v2 are supported.
 
 As npm global package:
  - npm install -g postman-to-loadimpact
- - postman-to-loadimpact <filePath>
+ - postman-to-loadimpact path/file.json
 
 As local repository:
  - git clone git@github.com:loadimpact/postman-to-loadimpact.git
