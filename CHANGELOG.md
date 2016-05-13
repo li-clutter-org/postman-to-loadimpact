@@ -1,0 +1,1 @@
+- Auto-generate Lua variable definitions
