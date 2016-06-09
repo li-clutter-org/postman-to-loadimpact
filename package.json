@@ -1,7 +1,7 @@
 {
   "name": "postman-to-loadimpact",
   "description": "Convert a Postman collection to Load Impact Lua user scenario",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "author": {
     "email": "support@loadimpact.com",
     "name": "Load Impact"
