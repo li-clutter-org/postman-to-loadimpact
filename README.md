@@ -18,7 +18,7 @@ As local repository:
  - git clone git@github.com:loadimpact/postman-to-loadimpact.git
  - cd postman-to-loadimpact
  - npm install
- - bin/postman-to-loadimpact.js examples/postman/v1/echo.json
+ - bin/postman-to-loadimpact.js examples/postman/v2/echo.json
 
 ## Options
 
