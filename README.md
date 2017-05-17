@@ -41,9 +41,9 @@ A collection of Postman examples are located under `./examples/postman`.
 
 The user scenario will be auto-generated when running:
 
-    $ postman-to-loadimpact examples/postman/v1/echo.json
+    $ postman-to-loadimpact examples/postman/v2/echo.json
 
-    $ postman-to-loadimpact examples/postman/v2/echo.json -j 1.0.0
+    $ postman-to-loadimpact examples/postman/v1/echo.json -j 1.0.0
 
 
 Please, use the [issue tracker](https://github.com/loadimpact/postman-to-loadimpact/issues) to open a discussion or bug report.
