@@ -32,7 +32,7 @@ The transformer provides a command line interface with different options.
     
         -h, --help                    output usage information
         -V, --version                 output the version number
-        -j --input-version <version>  Input version. Options `1.0.0` or `2.0.0`. Default `1.0.0`.
+        -j --input-version <version>  Input version. Options `2.0.0` or `1.0.0`. Default `2.0.0`.
         -o --output <path>            Target file path where the converted collection will be written. Default `console`
 
 ## Examples
@@ -43,7 +43,7 @@ The user scenario will be auto-generated when running:
 
     $ postman-to-loadimpact examples/postman/v1/echo.json
 
-    $ postman-to-loadimpact examples/postman/v2/echo.json -j 2.0.0
+    $ postman-to-loadimpact examples/postman/v2/echo.json -j 1.0.0
 
 
 Please, use the [issue tracker](https://github.com/loadimpact/postman-to-loadimpact/issues) to open a discussion or bug report.
