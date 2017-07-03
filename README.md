@@ -1,4 +1,4 @@
-#postman-to-loadimpact
+# postman-to-loadimpact
 
 Converts Postman collections to Load Impact user scenarios. Given a Postman collection, the transformer will auto-generate a [Lua script](http://support.loadimpact.com/knowledgebase/topics/117699-user-scenario-scripting) to be imported as user scenario for your load tests.
 
@@ -19,6 +19,9 @@ As local repository:
  - cd postman-to-loadimpact
  - npm install
  - bin/postman-to-loadimpact.js examples/postman/v2/echo.json
+
+On windows:
+ - node bin/postman-to-loadimpact.js examples/postman/v2/echo.json
 
 ## Options
 
