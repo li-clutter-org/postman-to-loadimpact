@@ -1,3 +1,8 @@
+> ## ⚠️ Deprecation Notice
+> This tool has been deprecated in favor of [postman to k2](https://github.com/loadimpact/postman-to-k2).
+> Due to this, no further update, maintenance or support will be provided.
+> All current features are provided on an as-is basis.
+
 # postman-to-loadimpact
 
 Converts Postman collections to Load Impact user scenarios. Given a Postman collection, the transformer will auto-generate a [Lua script](http://support.loadimpact.com/knowledgebase/topics/117699-user-scenario-scripting) to be imported as user scenario for your load tests.
