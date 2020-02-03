@@ -1,5 +1,5 @@
 > ## ⚠️ Deprecation Notice
-> This tool has been deprecated in favor of [postman to k2](https://github.com/loadimpact/postman-to-k2).
+> This tool has been deprecated in favor of [postman to k6](https://github.com/loadimpact/postman-to-k6).
 > Due to this, no further update, maintenance or support will be provided.
 > All current features are provided on an as-is basis.
 
